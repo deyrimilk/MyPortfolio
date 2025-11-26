@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flavio M. Deza III | Portfolio Hero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="nav__logo" aria-hidden="false">
+          <span class="nav__logo-prefix">My</span>
+          <span class="nav__logo-word">Portfolio</span>
+        </div>
+        <ul class="nav__links">
+          <li><a class="is-active" href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="hero" id="home" data-node-id="1:2">
+      <div class="hero__background" aria-hidden="true"></div>
+      <div class="hero__content">
+        <section class="hero__text" data-name="Hero Section - Texts">
+          <p class="hero__eyebrow">
+            <span>Hi, I'm</span>
+            <span class="accent">Flavio M. Deza III</span>
+          </p>
+          <h1>
+            IT Professional |
+            <span class="accent">Digital Creator</span>
+          </h1>
+          <p class="hero__copy">
+            Passionate about leveraging technology to create innovative solutions.
+          </p>
+          <div class="hero__actions">
+            <button class="btn btn--solid" data-action="works">
+              View My Works
+            </button>
+            <button class="btn btn--outline" data-action="contact">
+              Get In Touch
+            </button>
+          </div>
+        </section>
+        <figure class="hero__media">
+          <span class="hero__ring" aria-hidden="true"></span>
+          <img
+            class="hero__portrait"
+            src="CEEL Images/Homepage Image.png"
+            alt="Flavio reaching forward with confidence"
+            loading="lazy"
+          />
+        </figure>
+      </div>
+      <p class="hero__hint">
+        Know more About <span class="accent">Me</span>
+        <i class="hero__hint-arrow fas fa-chevron-down" aria-hidden="true"></i>
+      </p>
+    </main>
+    <section id="about" class="about">
+      <div class="about__inner">
+        <figure class="about__portrait">
+          <img
+            src="CEEL Images/About me Image.jpg"
+            alt="Formal portrait of Flavio"
+            loading="lazy"
+          />
+        </figure>
+        <div class="about__content">
+          <div class="about__heading">
+            <p class="about__eyebrow">About <span class="accent">Me</span></p>
+            <h2>Hello! I'm <span class="accent">Flavio</span></h2>
+          </div>
+          <p>
+            I'm a BSIT student at City College of Calamba with a deep passion for technology
+            and innovation. What truly inspires me is the future—watching our technologies
+            continuously improve and upgrade keeps me intrigued and motivated. Every advancement,
+            every breakthrough, represents an opportunity to learn something new and push the
+            boundaries of what's possible.
+          </p>
+          <p>
+            Technology isn't just a field of study for me; it's a way of thinking and
+            problem-solving. I believe in staying ahead of the curve, constantly adapting to new
+            tools and methodologies. From web development to digital design, I embrace every
+            challenge as a chance to grow and contribute to the ever-evolving tech landscape.
+          </p>
+          <p>
+            With three years of hands-on experience and Cisco certifications under my belt, I'm
+            committed to excellence in everything I create. Whether I'm coding a website, designing
+            user interfaces, or exploring emerging technologies, my goal is always to deliver
+            solutions that are both functional and forward-thinking.
+          </p>
+          <div class="about__tags">
+            <span>Passionate Creator</span>
+            <span>Problem Solver</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__cards">
+        <article class="about-card">
+          <div class="about-card__eyebrow">
+            <i class="about-card__icon fas fa-graduation-cap" aria-hidden="true"></i>
+            Education &amp; Experience
+          </div>
+          <ul>
+            <li>Bachelor of Science in Information Technology</li>
+            <li>City College of Calamba (CCC)</li>
+            <li>3+ years of IT and development experience</li>
+            <li>Cisco Certified Professional</li>
+          </ul>
+        </article>
+        <article class="about-card">
+          <div class="about-card__eyebrow">
+            <i class="about-card__icon fas fa-lightbulb" aria-hidden="true"></i>
+            Design Philosophy
+          </div>
+          <p>
+            I believe technology should be intuitive, accessible, and purposeful. My approach combines
+            technical precision with creative innovation, ensuring every project is built on a foundation
+            of solid functionality while embracing modern design principles. In a world where technology
+            evolves daily, I strive to create solutions that are not just relevant today, but scalable
+            for tomorrow.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio__heading">
+        <p class="portfolio__eyebrow">Portfolio</p>
+        <h2>A curated selection of <span class="accent">my best work</span></h2>
+        <p class="portfolio__subhead">
+          Showcasing various design disciplines and creative solutions.
+        </p>
+      </div>
+      <div class="portfolio__carousels">
+        <article class="portfolio-carousel">
+          <div class="portfolio-carousel__header">
+            <h3>Fruit Drawing</h3>
+            <p>Elements &amp; Principles of Design</p>
+          </div>
+          <div class="carousel" data-carousel="fruit">
+            <button class="carousel__btn carousel__btn--prev" aria-label="Previous image">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel__container">
+              <div class="carousel__track">
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Fruit drawing 1.jpeg" alt="Fruit drawing 1" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Fruit drawing 2.jpg" alt="Fruit drawing 2" loading="lazy" />
+                </div>
+              </div>
+            </div>
+            <button class="carousel__btn carousel__btn--next" aria-label="Next image">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="carousel__indicators"></div>
+          </div>
+        </article>
+
+        <article class="portfolio-carousel">
+          <div class="portfolio-carousel__header">
+            <h3>Typography Practice</h3>
+            <p>Layout &amp; Adjustment exploration</p>
+          </div>
+          <div class="carousel" data-carousel="typography">
+            <button class="carousel__btn carousel__btn--prev" aria-label="Previous image">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel__container">
+              <div class="carousel__track">
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Typography practice 1.png" alt="Typography practice 1" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Typography practice 2.png" alt="Typography practice 2" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Typography practice 3.jpeg" alt="Typography practice 3" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Typography practice 4.jpeg" alt="Typography practice 4" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Typography practice 5.jpeg" alt="Typography practice 5" loading="lazy" />
+                </div>
+              </div>
+            </div>
+            <button class="carousel__btn carousel__btn--next" aria-label="Next image">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="carousel__indicators"></div>
+          </div>
+        </article>
+
+        <article class="portfolio-carousel">
+          <div class="portfolio-carousel__header">
+            <h3>Logo Designs</h3>
+            <p>Vertical, horizontal, icon, badge</p>
+          </div>
+          <div class="carousel" data-carousel="logo">
+            <button class="carousel__btn carousel__btn--prev" aria-label="Previous image">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel__container">
+              <div class="carousel__track">
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Logo 1.jpeg" alt="Logo design 1" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Logo 2.jpeg" alt="Logo design 2" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Logo 3.jpeg" alt="Logo design 3" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Logo 4.jpeg" alt="Logo design 4" loading="lazy" />
+                </div>
+              </div>
+            </div>
+            <button class="carousel__btn carousel__btn--next" aria-label="Next image">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="carousel__indicators"></div>
+          </div>
+        </article>
+
+        <article class="portfolio-carousel">
+          <div class="portfolio-carousel__header">
+            <h3>Marketing Materials</h3>
+            <ul>
+              <li>Social media post (1080×1080)</li>
+              <li>Landing page banner (1600×900)</li>
+              <li>Newsletter header (600×200)</li>
+              <li>Banner ad (336×280)</li>
+            </ul>
+          </div>
+          <div class="carousel" data-carousel="marketing">
+            <button class="carousel__btn carousel__btn--prev" aria-label="Previous image">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel__container">
+              <div class="carousel__track">
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Marketing Materials 1.jpeg" alt="Marketing material 1" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Marketing Materials 2.jpeg" alt="Marketing material 2" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Marketing Materials 3.jpeg" alt="Marketing material 3" loading="lazy" />
+                </div>
+                <div class="carousel__slide">
+                  <img src="CEEL Images/Marketing Materials 4.jpeg" alt="Marketing material 4" loading="lazy" />
+                </div>
+              </div>
+            </div>
+            <button class="carousel__btn carousel__btn--next" aria-label="Next image">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="carousel__indicators"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <div class="skills__heading">
+        <p class="skills__eyebrow">Skills &amp; Expertise</p>
+        <h2>
+          A combination of <span class="accent">technical proficiency</span> and essential soft skills
+          that drive my creative process.
+        </h2>
+        <p class="skills__subhead">
+          Every project balances precision, empathy, and a knack for clear communication.
+        </p>
+      </div>
+      <div class="skills__grid">
+        <article class="skill-panel">
+          <header>
+            <i class="skill-panel__icon fas fa-code" aria-hidden="true"></i>
+            <div>
+              <p class="skill-panel__eyebrow">Technical Skills</p>
+              <p class="skill-panel__hint">Tools &amp; technologies I rely on every day</p>
+            </div>
+          </header>
+          <ul class="skill-meter-list">
+            <li>
+              <div class="skill-meter__row">
+                <span>HTML &amp; CSS</span>
+                <span>90%</span>
+              </div>
+              <span class="skill-meter" style="--fill: 90%"></span>
+            </li>
+            <li>
+              <div class="skill-meter__row">
+                <span>JavaScript &amp; React</span>
+                <span>85%</span>
+              </div>
+              <span class="skill-meter" style="--fill: 85%"></span>
+            </li>
+            <li>
+              <div class="skill-meter__row">
+                <span>Figma &amp; UI/UX Design</span>
+                <span>90%</span>
+              </div>
+              <span class="skill-meter" style="--fill: 90%"></span>
+            </li>
+            <li>
+              <div class="skill-meter__row">
+                <span>Tailwind CSS</span>
+                <span>80%</span>
+              </div>
+              <span class="skill-meter" style="--fill: 80%"></span>
+            </li>
+            <li>
+              <div class="skill-meter__row">
+                <span>Canva</span>
+                <span>95%</span>
+              </div>
+              <span class="skill-meter" style="--fill: 95%"></span>
+            </li>
+            <li>
+              <div class="skill-meter__row">
+                <span>Git &amp; Version Control</span>
+                <span>75%</span>
+              </div>
+              <span class="skill-meter" style="--fill: 75%"></span>
+            </li>
+          </ul>
+        </article>
+        <article class="skill-panel">
+          <header>
+            <i class="skill-panel__icon fas fa-users" aria-hidden="true"></i>
+            <div>
+              <p class="skill-panel__eyebrow">Soft Skills</p>
+              <p class="skill-panel__hint">Values that keep collaborations effortless</p>
+            </div>
+          </header>
+          <div class="soft-skills">
+            <span>Creativity &amp; Innovation</span>
+            <span>Problem Solving</span>
+            <span>Team Collaboration</span>
+            <span>Communication</span>
+            <span>Time Management</span>
+            <span>Attention to Details</span>
+          </div>
+          <div class="skills__cta">
+            <p>Want to know more about <span class="accent">Me</span>?</p>
+              <a href="My_Resume.pdf" class="btn btn--solid" download>
+                 <i class="fas fa-download"></i>
+                 Download Resume
+              </a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="contact__heading">
+        <p class="contact__eyebrow">Contact</p>
+        <h2>
+          Have a project in mind or just want to chat?
+          <span class="accent">I'd love to hear from you!</span>
+        </h2>
+      </div>
+      <div class="contact__grid">
+        <article class="contact-card contact-card--info">
+          <h3>Contact Information</h3>
+          <ul class="contact-info">
+            <li>
+              <i class="contact-info__icon fas fa-envelope" aria-hidden="true"></i>
+              <div>
+                <p>Email</p>
+                <a href="mailto:deza3613@gmail.com">deza3613@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <i class="contact-info__icon fas fa-phone" aria-hidden="true"></i>
+              <div>
+                <p>Phone</p>
+                <a href="tel:+639623937187">+63 962 3937 187</a>
+              </div>
+            </li>
+            <li>
+              <i class="contact-info__icon fas fa-map-marker-alt" aria-hidden="true"></i>
+              <div>
+                <p>Location</p>
+                <span>Calamba City, Laguna, Philippines</span>
+              </div>
+            </li>
+          </ul>
+          <div class="contact-social">
+            <p>Follow Me</p>
+            <div class="contact-social__links">
+              <a href="https://www.facebook.com/share/1BrykFFKjG/" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/_deyri03?igsh=ZTQxcmV1a3J1NWc5" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="mailto:deza3613@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+            <p class="contact-social__note">
+              Check out my work on Instagram, connect with me on Facebook, or send me an email.
+            </p>
+          </div>
+        </article>
+        <form class="contact-card contact-form">
+          <h3>Send Me a Message</h3>
+          <label>
+            Your Name
+            <input type="text" name="name" placeholder="John Doe" required />
+          </label>
+          <label>
+            Email Address
+            <input type="email" name="email" placeholder="john@example.com" required />
+          </label>
+          <label>
+            Subject
+            <input type="text" name="subject" placeholder="Final Project" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+          </label>
+          <button class="btn btn--solid contact-form__submit" type="submit">
+            <i class="fas fa-paper-plane"></i>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <p>© 2025 Flavio M. Deza III. Designed with passion for technology and innovation.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
